@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Lexend', sans-serif;
+    background: #0d1e3a;
+    color: white;
+    text-align: center;
+}
+
+body {
+    margin: 30px;
+    padding: 30px;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: large;
+}
+
+p {
+    font-size: small;
+}
+
+.btn {
+    display:block;
+    text-decoration: none;
+    background: white;
+    color: black;
+    margin: 16px;
+    padding: 16px;
+    box-shadow: 5px 10px grey;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: rgba(132,55,249);
+    color: white;
+}
+
+.social-icon {
+
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+/* Mobile styles */
+@media (max-width: 600px) {
+    body {
+        background: #0F1108;
+    }
+
+    .icons {
+        padding: 20px;
+        margin: 16px;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .profile-img {
+        width: 50%;
+        clip-path: circle();
+    }
+
+    .btn {
+        display: block;
+        color: black;
+        padding: 20px;
+        background: white;
+        margin: 16px;
+        box-shadow: 10px 10px lightblue;
+    }
+}
