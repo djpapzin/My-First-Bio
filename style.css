@@ -70,10 +70,19 @@ img.profile {
 }
 
 
+/body {
+    margin: 30px;
+    padding: 30px;
+    overflow: auto; /* Allows scrolling if content overflows */
+}
+
 /* Mobile styles */
 @media (max-width: 600px) {
     body {
+        margin: 10px; /* Reduce as needed */
+        padding: 10px; /* Reduce as needed */
         background: #0F1108;
+        overflow: auto;
     }
 
     .icons {
