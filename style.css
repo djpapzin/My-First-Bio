@@ -19,10 +19,15 @@ h1 {
 
 p {
     font-size: small;
+    width: 70%; /* You can adjust this value to control the width */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; /* Optional: Centers the text within the paragraph */
 }
 
+
 .btn {
-    display:block;
+    display: block;
     text-decoration: none;
     background: white;
     color: black;
@@ -35,10 +40,6 @@ p {
 .btn:hover {
     background: rgba(132,55,249);
     color: white;
-}
-
-.social-icon {
-
 }
 
 .social-icons {
@@ -58,12 +59,16 @@ p {
     border-radius: 50%;
 }
 
-img {
+img.profile {
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    /* filter: blur(-10px); */
+    width: 250px; /* Adjust as needed */
+    height: 250px; /* Same as width */
+    object-fit: cover; /* Ensures the image covers the entire content box */
+    object-position: center top; /* Adjust as needed */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #fff;
 }
+
 
 /* Mobile styles */
 @media (max-width: 600px) {
