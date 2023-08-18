@@ -10,7 +10,7 @@
 body {
     margin: 30px;
     padding: 30px;
-    overflow: hidden;
+    overflow: auto;
 }
 
 h1 {
@@ -69,12 +69,6 @@ img.profile {
     border: 2px solid #fff;
 }
 
-
-/body {
-    margin: 30px;
-    padding: 30px;
-    overflow: auto; /* Allows scrolling if content overflows */
-}
 
 /* Mobile styles */
 @media (max-width: 600px) {
